@@ -6,6 +6,7 @@ public class Main {
         Battle b = new Battle();
         Pokemon p1 = new Drampa("Дракарис", 2);
         Pokemon p2 = new Deerling("Рандом", 3);
+        Pokemon p3 = new Nidoqueen("Второй чел", 3);
         b.addAlly(p1);
         b.addAlly(p2);
         b.addAlly(p3);
